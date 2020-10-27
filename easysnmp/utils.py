@@ -8,7 +8,7 @@ from .compat import ub, text_type
 def strip_non_printable(value):
     """
     Removes any non-printable characters and adds an indicator to the string
-    when binary characters are fonud.
+    when binary characters are found.
 
     :param value: the value that you wish to strip
     """
